@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>청우회 홈페이지</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+html,body,h1,h2,h3,h4 {font-family:"Lato", sans-serif}
+.mySlides {display:none}
+.w3-tag, .fa {cursor:pointer}
+.w3-tag {height:15px;width:15px;padding:0;margin-top:6px}
+</style>
+</head>
+<body>
+
+<!-- Links (sit on top) -->
+<div class="w3-top">
+  <div class="w3-row w3-large w3-light-grey">
+    <div class="w3-col s3">
+      <a href="#" class="w3-button w3-block">홈</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#plans" class="w3-button w3-block">운동일정</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#about" class="w3-button w3-block">회원소개</a>
+    </div>
+    <div class="w3-col s3">
+      <a href="#contact" class="w3-button w3-block">연락처</a>
+    </div>
+  </div>
+</div>
+
+<!-- Content -->
+<div class="w3-content" style="max-width:1100px;margin-top:80px;margin-bottom:80px">
+
+  <div class="w3-center w3-panel">
+    <h1><b>청우회</b></h1>
+    <p><h3>100세까지 건강하고 행복하게 테니스를 즐깁시다.</h3></p>
+  </div>
+
+  <!-- Slideshow -->
+  <div class="w3-container">
+    <div class="w3-display-container mySlides">
+      <img src="청우회_사진/청우회_바탕사진.png" style="width:100%">
+      <div class="w3-display-topleft w3-container w3-padding-32">
+        <span class="w3-white w3-padding-large w3-animate-bottom">청우회 회원들</span>
+      </div>
+    </div>
+    <div class="w3-display-container mySlides">
+      <img src="청우회_사진/김도훈_어르신_스트로크.png" style="width:100%">
+      <div class="w3-display-topmiddle w3-container w3-padding-32">
+        <span class="w3-white w3-padding-large w3-animate-bottom">김도훈 어르신의 멋진 스트로크</span>
+      </div>
+    </div>
+    <div class="w3-display-container mySlides">
+      <img src="청우회_사진/이수웅고문님_생신.jpeg" style="width:100%">
+      <div class="w3-display-topright w3-container w3-padding-32">
+        <span class="w3-white w3-padding-large w3-animate-bottom">이수웅고문님의 생일파티</span>
+      </div>
+    </div>
+
+    <!-- Slideshow next/previous buttons -->
+    <div class="w3-container w3-dark-grey w3-padding w3-xlarge">
+      <div class="w3-left" onclick="plusDivs(-1)"><i class="fa fa-arrow-circle-left w3-hover-text-teal"></i></div>
+      <div class="w3-right" onclick="plusDivs(1)"><i class="fa fa-arrow-circle-right w3-hover-text-teal"></i></div>
+    
+      <div class="w3-center">
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(1)"></span>
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(2)"></span>
+        <span class="w3-tag demodots w3-border w3-transparent w3-hover-white" onclick="currentDiv(3)"></span>
+      </div>
+    </div>
+  </div>
+  
+    <!-- Grid -->
+  <div class="w3-row-padding" id="plans">
+    <div class="w3-center w3-padding-64">
+      <h2>요일별 운동시간 및 운동장소</h2>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-center w3-hover-shadow">
+        <li class="w3-black w3-xlarge w3-padding-32">월요일</li>
+        <li class="w3-padding-16"><h4><b>운동시간 : 14:00 - 17:00</b></h4></li>
+        <li class="w3-padding-16">
+          <h4 class=""w3-wide"><b>운동장소 : 양재시민의 숲 테니스장</b></h4>
+          <span class="w3-opacity"><h5>8번 코트</h5></span>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-center w3-hover-shadow">
+        <li class="w3-black w3-xlarge w3-padding-32">수요일</li>
+        <li class="w3-padding-16"><h4><b>운동시간 : 14:00 - 17:00</b></h4></li>
+        <li class="w3-padding-16">
+          <h4 class=""w3-wide"><b>운동장소 : 잠원고수부지 테니스장</b></h4>
+          <span class="w3-opacity"><h5>3번 코트</h5></span>
+        </li>
+      </ul>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <ul class="w3-ul w3-border w3-center w3-hover-shadow">
+        <li class="w3-black w3-xlarge w3-padding-32">금요일</li>
+        <li class="w3-padding-16"><h4><b>운동시간 : 13:00 - 17:00</b></h4></li>
+        <li class="w3-padding-16">
+          <h4 class=""w3-wide"><b>운동장소 : 반포종합운동장 테니스장</b></h4>
+          <span class="w3-opacity"><h5>6번 코트</h5></span>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Grid  90x90 120x120-->
+  <div class="w3-row-padding" id="about">
+    <div class="w3-center w3-padding-64">
+      <span class="w3-xlarge w3-border-dark-grey w3-padding-16"><h2>회원소개</h2></span>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <div class="w3-card-4">
+        <img src="청우회_사진/회원사진/김도훈.PNG" alt="John" style="width:100%">
+        <div class="w3-center w3-container">
+          <h3>김도훈</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <div class="w3-card-4">
+        <img src="청우회_사진/회원사진/김영근.PNG" alt="John" style="width:100%">
+        <div class="w3-container">
+          <h3>김영근</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <div class="w3-card-4">
+        <img src="청우회_사진/회원사진/장명길.PNG" alt="John" style="width:100%">
+        <div class="w3-container">
+          <h3>장명길</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <div class="w3-card-4">
+        <img src="청우회_사진/회원사진/김명의.PNG" alt="John" style="width:100%">
+        <div class="w3-container">
+          <h3>김명의</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <div class="w3-card-4">
+        <img src="청우회_사진/회원사진/이수웅.PNG" alt="John" style="width:100%">
+        <div class="w3-container">
+          <h3>이수웅</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <div class="w3-card-4">
+        <img src="청우회_사진/회원사진/장정자.PNG" alt="John" style="width:100%">
+        <div class="w3-container">
+          <h3>장정자</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <div class="w3-card-4">
+        <img src="청우회_사진/회원사진/박연순.PNG" alt="John" style="width:100%">
+        <div class="w3-container">
+          <h3>박연순</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <div class="w3-card-4">
+        <img src="청우회_사진/회원사진/박선영.PNG" alt="John" style="width:100%">
+        <div class="w3-container">
+          <h3>박선영</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <div class="w3-card-4">
+        <img src="청우회_사진/회원사진/박병구.PNG" alt="John" style="width:100%">
+        <div class="w3-container">
+          <h3>박병구</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <div class="w3-card-4">
+        <img src="청우회_사진/회원사진/정순임.PNG" alt="John" style="width:100%">
+        <div class="w3-container">
+          <h3>정순임</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <div class="w3-card-4">
+        <img src="청우회_사진/회원사진/김병현.PNG" alt="John" style="width:100%">
+        <div class="w3-container">
+          <h3>김병현</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <div class="w3-card-4">
+        <img src="청우회_사진/회원사진/김순옥.PNG" alt="John" style="width:100%">
+        <div class="w3-container">
+          <h3>김순옥</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <div class="w3-card-4">
+        <img src="청우회_사진/회원사진/이순복.PNG" alt="John" style="width:100%">
+        <div class="w3-container">
+          <h3>이순복</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <div class="w3-card-4">
+        <img src="청우회_사진/회원사진/차영훈.PNG" alt="John" style="width:100%">
+        <div class="w3-container">
+          <h3>차영훈</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <div class="w3-card-4">
+        <img src="청우회_사진/회원사진/국광호.PNG" alt="John" style="width:100%">
+        <div class="w3-container">
+          <h3>국광호</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <div class="w3-card-4">
+        <img src="청우회_사진/회원사진/이돈주.PNG" alt="John" style="width:100%">
+        <div class="w3-container">
+          <h3>이돈주</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="w3-third w3-margin-bottom">
+      <div class="w3-card-4">
+        <img src="청우회_사진/회원사진/김청흠.PNG" alt="John" style="width:100%">
+        <div class="w3-container">
+          <h3>김청흠</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Contact -->
+  <div class="w3-center w3-padding-64" id="contact">
+    <span class="w3-xlarge w3-border-dark-grey w3-padding-16"><h2>연락처</h2></span>
+  </div>
+
+  <!-- The Contact Section -->
+  <!-- https://www.w3schools.com/w3css/tryw3css_templates_band.htm -->
+  <div class="w3-container w3-content" style="max-width:1000px" id="contact">
+    <div class="w3-row w3-padding-32">
+      <div class="w3-col m6 w3-large w3-margin-bottom">
+        <i class="fa fa-phone" style="width:30px"></i> 김병현회장 전화번호 : 010-7565-9964<br>
+        <i class="fa fa-phone" style="width:30px"></i> 국광호총무 전화번호 : 010-4046-6960<br>
+        <i class="fa fa-envelope" style="width:30px"> </i> 국광호총무 Email : khkook2014@gmail.com<br>
+        <i class="fa fa-comments-alt" style="width:30px"></i> <a href="https://open.kakao.com/o/suTdyWlh">카톡 오픈 채팅방 : 서초구 시니어 테니스클럽 회원 모집</a><br>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<script>
+// Slideshow
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function currentDiv(n) {
+  showDivs(slideIndex = n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("demodots");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length} ;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" w3-white", "");
+  }
+  x[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " w3-white";
+}
+</script>
+
+</body>
+</html>
