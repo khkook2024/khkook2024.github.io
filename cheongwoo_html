@@ -176,10 +176,10 @@ p.rule3 {
     <div class="w3-third w3-margin-bottom">
       <ul class="w3-ul w3-border w3-center w3-hover-shadow">
         <li class="w3-black w3-xlarge w3-padding-32">월요일</li>
-        <li class="w3-padding-16"><h5 class="activity"><b>운동시간 : 14:00 - 17:00</b></h5></li>
+        <li class="w3-padding-16"><h4 class="activity"><b>운동시간 : 14:00 - 17:00</b></h4></li>
         <li class="w3-padding-16">
-          <h5 class="w3-wide activity"><b>운동장소 : 양재시민의 숲 테니스장</b></h5>
-          <span class="w3-opacity"><h6>8번 코트</h6></span>
+          <h4 class="activity"><b>운동장소 : 양재시민의 숲 테니스장</b></h4>
+          <span class="w3-opacity"><h5 class="activity">8번 코트</h5></span>
         </li>
       </ul>
     </div>
@@ -187,10 +187,10 @@ p.rule3 {
     <div class="w3-third w3-margin-bottom">
       <ul class="w3-ul w3-border w3-center w3-hover-shadow">
         <li class="w3-black w3-xlarge w3-padding-32">수요일</li>
-        <li class="w3-padding-16"><h5 class="activity"><b>운동시간 : 14:00 - 17:00</b></h5></li>
+        <li class="w3-padding-16"><h4 class="activity"><b>운동시간 : 14:00 - 17:00</b></h4></li>
         <li class="w3-padding-16">
-          <h5 class="w3-wide activity"><b>운동장소 : 잠원고수부지 테니스장</b></h5>
-          <span class="w3-opacity"><h6>3번 코트</h6></span>
+          <h4 class="activity"><b>운동장소 : 잠원고수부지 테니스장</b></h4>
+          <span class="w3-opacity"><h5 class="activity">3번 코트</h5></span>
         </li>
       </ul>
     </div>
@@ -198,10 +198,10 @@ p.rule3 {
     <div class="w3-third w3-margin-bottom">
       <ul class="w3-ul w3-border w3-center w3-hover-shadow">
         <li class="w3-black w3-xlarge w3-padding-32">금요일</li>
-        <li class="w3-padding-16"><h5 class="activity"><b>운동시간 : 13:00 - 17:00</b></h5></li>
+        <li class="w3-padding-16"><h4 class="activity"><b>운동시간 : 13:00 - 17:00</b></h4></li>
         <li class="w3-padding-16">
-          <h5 class="w3-wide activity"><b>운동장소 : 반포종합운동장 테니스장</b></h5>
-          <span class="w3-opacity"><h6>6번 코트</h6></span>
+          <h4 class="activity"><b>운동장소 : 반포종합운동장 테니스장</b></h4>
+          <span class="w3-opacity"><h5 class="activity">6번 코트</h5></span>
         </li>
       </ul>
     </div>
